@@ -1,0 +1,120 @@
+/* for screen smaller than 1140px with */
+@media only screen and (max-width: 1200px){
+
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{ padding: 0 2% }
+}
+
+
+/* For Small screens less than 747 to 1024px */
+@media only screen and (max-width: 1023px) {
+
+    body{ font-size: 18px; }
+    section{ padding: 60px 0;}
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box{margin-top: 10px;}
+    .step-box:last-child{margin-top: 10px;}
+    .work-steps{margin-bottom: 40px;}
+    .work-steps:last-of-type{ margin-bottom: 60px;}
+    .app-photo{ width: 50%;}
+
+    .icon-small{
+        margin-right: 5px;
+        width: 15px;
+    }
+
+    .section-cities{ font-size: 90%;}
+
+    .box-feature{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan{ font-size: 250%;}
+    .contact-form{ width: 80%;}
+
+    }
+
+/* for screens size of range 550 to 747px */
+@media only screen and (max-width: 747px) {
+
+    body{ font-size: 16px;}
+    section{ padding: 30px 0;}
+
+    .row, .hero-text-box{ padding: 0 2%; }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+
+    .main-nav{ display: none;}
+    .mobile-nav-icon{ display: inline-block; }
+    .main-nav{
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .main-nav li{ display: block; }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 100%;
+        padding: 5px 0;
+    }
+
+    .sticky-nav .main-nav{
+        margin-top: 10px;
+    }
+
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited{ padding: 10px 0; }
+
+    .sticky-nav .mobile-nav-icon i{ color: #555555;}
+    .sticky-nav .mobile-nav-icon { margin-top: 10px;}
+
+    h1{ font-size: 180%}
+    h2{ font-size: 150%}
+
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .step-box:first-child{ text-align: center;}
+    .work-steps{ margin-bottom: 20px;}
+    .work-steps:last-of-type{ margin-bottom: 20px;}
+
+    .work-steps div{
+        height: 40px;
+        width: 40px;
+        font-size: 120%;
+        padding-top: 4px;
+        margin-right: 15px;
+
+    }
+
+    .social-nav{ float: left;}
+
+}
+
+@media only screen and (max-width: 550px){
+
+    body{ font-size: 15px;}
+    section{ padding: 25px 0;}
+
+    .contact-form{
+        width: 100%;
+    }
+}
